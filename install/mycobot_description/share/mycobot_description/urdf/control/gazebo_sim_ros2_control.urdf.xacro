@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Minimal stub for gazebo_sim_ros2_control inclusion.
+       Defines a macro expected by mycobot_280.urdf.xacro so xacro processing succeeds.
+       If you later need full gazebo/ros2_control plugin config, replace this with the real content. -->
+  <xacro:macro name="load_gazebo_sim_ros2_control_plugin" params="robot_name use_gazebo">
+    <xacro:if value="${use_gazebo == 'true' or use_gazebo == '1'}">
+      <!-- Insert your Gazebo plugin XML here if needed -->
+    </xacro:if>
+  </xacro:macro>
+</robot>

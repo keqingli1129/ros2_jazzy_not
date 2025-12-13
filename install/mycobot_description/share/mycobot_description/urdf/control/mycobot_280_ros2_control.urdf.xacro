@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Minimal stub for mycobot ros2_control inclusion.
+       Defines the macro expected by mycobot_280.urdf.xacro so xacro processing succeeds.
+       Replace with full ros2_control + hardware/controller config if needed. -->
+  <xacro:macro name="mycobot_ros2_control" params="prefix flange_link use_gazebo">
+    <!-- Placeholder for ros2_control hardware interface and controller configuration -->
+  </xacro:macro>
+</robot>
