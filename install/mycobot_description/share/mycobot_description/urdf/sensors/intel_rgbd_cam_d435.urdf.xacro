@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <!-- Minimal stub for Intel RealSense D435 camera inclusion.
-       Placeholder for camera model, links, and joints. -->
-</robot>
