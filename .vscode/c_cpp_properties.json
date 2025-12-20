@@ -4,7 +4,11 @@
       "name": "ROS2",
       "includePath": [
         "/opt/ros/jazzy/include/**",
-        "${workspaceFolder}/src/**"
+        "${workspaceFolder}/src/**",
+        "${workspaceFolder}/install/yahboom_rosmaster_msgs/include",
+        "${workspaceFolder}/build/yahboom_rosmaster_msgs"
+        
+
       ],
       "compilerPath": "/usr/bin/g++",
       "cStandard": "c17",
